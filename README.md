@@ -88,3 +88,10 @@ Ensure you have the following installed:
 2. **View Details**: Click on a product or cart to view detailed information.
 3. **Add Product**: Use the form on the Products page to add new products with mandatory validation.
 4. **Style Customization**: TailwindCSS can be customized for themes and layouts in tailwind.config.js.
+
+---
+
+## Hosting
+
+This application is hosted on GitHub Pages. Access it at: 
+  -  
