@@ -2,10 +2,9 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [RouterLink],
-  template: `
+    selector: 'app-home',
+    imports: [RouterLink],
+    template: `
     <div class="min-h-screen bg-gray-100 p-8">
       <div class="max-w-4xl mx-auto">
         <h1 class="text-4xl font-bold mb-8 text-center">Welcome to Our Store</h1>

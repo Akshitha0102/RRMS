@@ -4,10 +4,9 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 import { Product } from '../../models/types';
 
 @Component({
-  selector: 'app-product-form',
-  standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
-  template: `
+    selector: 'app-product-form',
+    imports: [CommonModule, ReactiveFormsModule],
+    template: `
     <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
       <div class="bg-white rounded-lg p-6 max-w-2xl w-full">
         <div class="flex justify-between items-start mb-4">

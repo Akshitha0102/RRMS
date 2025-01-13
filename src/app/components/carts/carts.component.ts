@@ -4,10 +4,9 @@ import { ApiService } from '../../services/api.service';
 import { Cart } from '../../models/types';
 
 @Component({
-  selector: 'app-carts',
-  standalone: true,
-  imports: [CommonModule],
-  template: `
+    selector: 'app-carts',
+    imports: [CommonModule],
+    template: `
     <div class="min-h-screen bg-gray-100 p-8">
       <div class="max-w-6xl mx-auto">
         <h1 class="text-3xl font-bold mb-6">Shopping Carts</h1>

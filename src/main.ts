@@ -13,10 +13,9 @@ const routes: Routes = [
 ];
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
-  template: `<router-outlet></router-outlet>`
+    selector: 'app-root',
+    imports: [RouterOutlet],
+    template: `<router-outlet></router-outlet>`
 })
 export class App {}
 

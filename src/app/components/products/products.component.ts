@@ -5,10 +5,9 @@ import { Product } from '../../models/types';
 import { ProductFormComponent } from './product-form.component';
 
 @Component({
-  selector: 'app-products',
-  standalone: true,
-  imports: [CommonModule, ProductFormComponent],
-  template: `
+    selector: 'app-products',
+    imports: [CommonModule, ProductFormComponent],
+    template: `
     <div class="min-h-screen bg-gray-100 p-8">
       <div class="max-w-6xl mx-auto">
         <div class="flex justify-between items-center mb-6">
